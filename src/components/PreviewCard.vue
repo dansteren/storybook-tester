@@ -77,6 +77,7 @@ export default {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-family: 'Roboto', sans-serif;
 }
 .secondary-text {
   font-size: 12px;
@@ -86,5 +87,6 @@ export default {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-family: 'Roboto', sans-serif;
 }
 </style>
