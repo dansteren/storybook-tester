@@ -16,18 +16,20 @@
     </v-toolbar>
 
     <v-content>
-      <HelloWorld/>
+      <div class="centered">
+        <PreviewCard primary-text="My new document item" secondary-text="Modified 10/22/18"/>
+      </div>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import { PreviewCard } from './components'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PreviewCard
   },
   data () {
     return {
@@ -36,3 +38,13 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.centered {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+</style>
